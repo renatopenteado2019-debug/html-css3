@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML%</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+
+    <!--Essa tag picture, serve para ajudar automaticamente o tamanho da sua imagem no site (sempre seguir a ordem foto G em baixo / foto M no meio / foto P em cima)-->
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexivel">
+    </picture>
+
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir Áudio em HTML5</p>
+    <audio src="midia/GetOutside!-JasonFarnham.mp3"></audio>
+    <!-- MP3 NAV OGG (parametros para colocar audio no site)-->
+     <audio preload="metadata"autoplay controls loop>
+        <source src="midia/GetOutside!-JasonFarnham.mp3" type="audio/mpeg">
+        <source src="midia/GetOutside!-JasonFarnham.mp3" type="audio/ogg">
+        <source src="midia/GetOutside!-JasonFarnham.mp3" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="midia/GetOutside!-JasonFarnham.mp3">Clique aqui para baixar o arquivo MP3</a></p>
+     </audio>
+</body>
+</html>

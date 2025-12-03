@@ -1,0 +1,234 @@
+
+body {
+    background-color: rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.inicial {
+    background-color: black;
+}
+
+.informações {
+    background-color: black;
+}
+
+.arma {
+    background-color: rgb(0, 0, 0);
+}
+
+.mapas {
+    background-color: black;
+}
+
+.venhajogar {
+    background-color: #000000;
+}
+
+h1.inicial {
+    color: rgb(255, 255, 253);
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: bold;
+    background-image: linear-gradient(to right, rgba(212, 255, 0, 0.982),transparent);
+}
+
+header > img {
+    width: 1270px;
+    left: auto;
+    background-color: rgb(2, 2, 2);
+    margin-top: -10px;    
+}
+
+nav {
+    background-color: black;
+    padding: 10px;
+    box-sizing: 0px 7px 7px rgba(0, 0, 0, 0.363);
+    margin-top: -10px;
+    text-align: center;
+    font-size: x-large;
+}
+
+nav > a {
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration:.5s;
+}
+
+nav > a:hover {
+    background-color: rgba(254, 254, 251, 0.566);
+    color: rgb(0, 0, 0);
+}
+
+main  {
+    background-color: white;
+    min-width: 700px;
+    max-width: 700px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+main h1 {
+    color: black;
+    font-weight: normal;
+    font-size: 2em;
+    text-align: center;
+    font-weight: bolder;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.532),transparent);   
+}
+
+main h2 {    
+    font-size: 1.5em;
+    font-weight: bold;
+    text-indent: 8px;
+    text-align: center;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.532),transparent);
+}
+
+main h3 {
+    font-size: 1.3em;
+    font-weight: bold;
+    text-indent: 8px;
+    text-align: center;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.532),transparent);
+}
+
+main p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1em;
+    line-height: 2em;
+}
+
+main strong {
+    color: black;
+    font-weight: bold;
+    
+}
+
+main .arma {
+    background-color: white;
+}
+iframe {    
+    background-color: rgb(229, 255, 0);
+    width: 900px;
+    left: 900px;
+    padding: 40px;
+    margin-left: 150px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    border-bottom: 10px;
+    border-radius: 100px;
+}
+
+.armas {
+    background-color: black; 
+}
+
+.armas h1 {
+    background-image: linear-gradient(to right, black, rgb(250, 200, 0)); 
+}
+
+
+.armas h1 {
+    background-color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.card {
+  position: relative;
+  width: 300px; 
+  height: 200px; 
+  overflow: hidden;
+}
+
+.card img {
+  width: 190px;
+  height: auto;
+  object-fit: cover; 
+  display: block;
+  border-radius: 20px;
+}
+
+.legenda {
+  position: absolute;
+  top: 30%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  background: rgba(252, 227, 0, 0.523);
+  color: #050505;
+  padding: 1px 6px;
+  border-radius: 6px;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+main mapas {
+    background-color: white;
+}
+
+img.mapas {
+    width: 650px;
+    height: auto;
+    margin: 20px;
+    border-radius: 10px;
+    border: #ffaa00 4px solid;      
+}
+
+h4 {
+    font-size: 1.5em;
+    font-weight: bolder;
+    text-align: center;
+}
+p.personagens {
+    font-size: 1.3em;
+}
+
+img.personagens {
+  width: 200px;
+  height: auto;
+  margin: auto;
+  object-fit: cover; 
+  display: block;
+  border-radius: 20px;
+  border: #000000 2px solid; 
+}
+
+.venha {
+    color: #ffaa00;
+    text-align: center;
+    font-size: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: boder;
+    font-style: italic;
+    text-indent: 8px;
+}
+
+.botao {
+    margin-left: 300px;
+    margin-right: auto;
+}
+.botao img {
+    width: 700px;
+    border: #f99100 2px solid; 
+    box-shadow: 2px 2px 2px 2px #f99100;
+}
+
+
+
+
+
+
+
+
+
